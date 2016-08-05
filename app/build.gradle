@@ -24,16 +24,16 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:24.1.1'
-    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
-    testCompile 'junit:junit:4.12'
     // 添加依赖。注意，版本号必须一致。
     // 基础功能 (必需)
-    compile 'com.netease.nimlib:basesdk:2.6.0'
     // 音视频需要
-    compile 'com.netease.nimlib:avchat:2.6.0'
     // 聊天室需要
-    compile 'com.netease.nimlib:chatroom:2.6.0'
     // 实时会话服务需要
+    compile 'com.android.support:appcompat-v7:24.1.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha4'
+    compile 'com.netease.nimlib:basesdk:2.6.0'
+    compile 'com.netease.nimlib:avchat:2.6.0'
+    compile 'com.netease.nimlib:chatroom:2.6.0'
     compile 'com.netease.nimlib:rts:2.6.0'
+    testCompile 'junit:junit:4.12'
 }
